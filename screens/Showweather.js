@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import {Alert, StyleSheet, Text, View, TouchableOpacity,Option,PixelRatio, Switch, StatusBar} from 'react-native';
 import CountryPicker, {getAllCountries} from 'react-native-country-picker-modal';
-import CityPicker from 'react-native-city-picker';
-import DeviceInfo from 'react-native-device-info';
-import { Value } from 'react-native-reanimated';
 import { Card, Divider } from 'react-native-elements';
 
 const NORTH_AMERICA = ['CA', 'MX', 'US'];
@@ -70,7 +67,7 @@ export default class Showweather extends React.Component {
                 
                 
                 <Card containerStyle={styles.card}>
-
+                    <Text>dguygduyeg</Text>
                 </Card>
             </View>
 		);
